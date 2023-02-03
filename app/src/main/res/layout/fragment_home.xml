@@ -58,14 +58,14 @@
                             android:textColor="#000000"/>
 
                         <TextView
+                            android:id="@+id/name"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="Soumen!"
                             android:layout_weight="1"
-                            android:textSize="30sp"
-                            android:id="@+id/name"
                             android:fontFamily="@font/poppins"
-                            android:textColor="#000000"/>
+                            android:text="Ayush!"
+                            android:textColor="#000000"
+                            android:textSize="30sp" />
 
 
                         <ImageView
@@ -161,7 +161,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:id="@+id/headerbutton"
-                        android:text="Redeem your Guru Coins"
+                        android:text="Redeem your Sphere Coins"
                         android:textColor="#FFFFFF"
                         android:fontFamily="@font/poppins"
                         android:textStyle="bold"
@@ -259,7 +259,8 @@
                 android:id="@+id/mid"
                 android:layout_marginTop="50dp"
                 android:layout_below="@+id/subjects"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingHorizontal="20px">
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -361,7 +362,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="EduBuddy Special"
+                        android:text="LearnSphere Special"
                         android:textSize="20sp"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins"

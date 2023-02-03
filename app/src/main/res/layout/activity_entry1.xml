@@ -7,42 +7,24 @@
     android:layout_height="match_parent"
     tools:context=".activityclass.Entry1">
 
-
-    <TextView
-        android:layout_marginTop="20dp"
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="150sp"
         android:layout_marginLeft="20dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Edu"
-        android:textColor="#0B5460"
-        android:textSize="30sp" />
+        android:src="@drawable/learnspherelogo" />
 
-    <TextView
-        android:id="@+id/title1"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="5dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_toRightOf="@id/title"
-        android:fontFamily="@font/poppins_bold"
-        android:gravity="center_horizontal"
-        android:text="Buddy"
-        android:textColor="#00B8D4"
-        android:textSize="30sp" />
 
 
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="280dp"
         android:layout_marginTop="50dp"
-        android:layout_below="@+id/title"
-        android:padding="30dp"
+        android:layout_height="280dp"
+        android:layout_below="@id/logo"
         android:id="@+id/schoolbags"
-        android:layout_centerVertical="true"
         android:src="@drawable/vr"
         />
 
@@ -51,17 +33,17 @@
         android:layout_below="@+id/schoolbags"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enroll"
+        android:text="New"
         android:fontFamily="@font/poppins_bold"
         android:textSize="25sp"
         android:id="@+id/head1"
         android:layout_marginLeft="20dp"
-        android:textColor="#0B5460"/>
+        android:textColor="#00B8D4"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Subject"
+        android:text="Age"
         android:id="@+id/head2"
         android:layout_below="@id/schoolbags"
         android:layout_toRightOf="@+id/head1"
@@ -73,7 +55,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Courses :"
+        android:text="Education :"
         android:layout_toRightOf="@+id/head2"
         android:layout_below="@id/schoolbags"
         android:fontFamily="@font/poppins_bold"
@@ -90,7 +72,7 @@
         android:layout_marginLeft="20sp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/poppins"
-        android:text="EduBuddy allow's you to enroll on your subject courses with e-learning material"
+        android:text="LearnSphere is an ultimate reality of knowledge, a single platform to share and produce AR educational content."
         android:textColor="#0B5460"
         android:textSize="18sp" />
 

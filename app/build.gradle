@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'com.google.gms.google-services'
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
@@ -9,10 +10,11 @@ android {
 
     defaultConfig {
         applicationId "com.example.guru_cares"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 31
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -57,4 +59,7 @@ dependencies {
 
     implementation 'com.daimajia.easing:library:2.4@aar'
     implementation 'com.daimajia.androidanimations:library:2.4@aar'
+
+    implementation 'com.github.vipulasri:timelineview:1.1.5'
+    implementation 'com.android.support:multidex:1.0.3'
 }

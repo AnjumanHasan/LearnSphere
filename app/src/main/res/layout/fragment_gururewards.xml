@@ -25,7 +25,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
-                android:text="Guru Care's Reward's"
+                android:text="LearnSphere's Rewards"
                 android:textSize="23sp"
                 android:layout_centerHorizontal="true"
                 android:fontFamily="@font/poppins"
@@ -94,7 +94,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:id="@+id/headerbutton"
-                        android:text="Redeem your Guru Coins"
+                        android:text="Redeem your Sphere Coins"
                         android:textColor="#FFFFFF"
                         android:fontFamily="@font/poppins"
                         android:textStyle="bold"

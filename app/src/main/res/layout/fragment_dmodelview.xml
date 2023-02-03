@@ -91,7 +91,7 @@
                         android:textSize="15sp"
                         android:textColor="@color/black"
                         android:gravity="center"
-                        android:text="- Guru Cares"/>
+                        android:text="- LearnSphere"/>
 
                     <TextView
                         android:layout_width="100dp"
@@ -170,7 +170,7 @@
                         android:textSize="15sp"
                         android:gravity="center"
                         android:textColor="#FDFBFB"
-                        android:text="- Guru Cares"/>
+                        android:text="- LearnSphere"/>
 
                     <TextView
                         android:layout_width="100dp"
@@ -258,7 +258,7 @@
                         android:textSize="15sp"
                         android:textColor="@color/black"
                         android:gravity="center"
-                        android:text="- Guru Cares"/>
+                        android:text="- LearnSphere"/>
 
                     <TextView
                         android:layout_width="100dp"
@@ -336,7 +336,7 @@
                         android:textSize="15sp"
                         android:gravity="center"
                         android:textColor="#FDFBFB"
-                        android:text="- Guru Cares"/>
+                        android:text="- LearnSphere"/>
 
                     <TextView
                         android:layout_width="100dp"

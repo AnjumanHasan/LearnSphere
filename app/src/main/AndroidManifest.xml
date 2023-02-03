@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.guru_cares">
+    package="com.example.guru_cares" >
 
     <application
         android:allowBackup="true"
@@ -8,8 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Guru_Cares">
-        <activity android:name=".GameActivity"></activity>
+        android:theme="@style/Theme.Guru_Cares" >
+        <activity
+            android:name=".TimeTableActivity"
+            android:exported="false" />
+        <activity android:name=".GameActivity" />
         <activity android:name=".flyhigh" />
         <activity android:name=".dinoassist" />
         <activity android:name=".activityclass.Questions_n_Answers" />
@@ -26,7 +29,9 @@
         <activity
             android:name=".timeTable.EventEditActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".activityclass.Splash_screen">
+        <activity
+            android:name=".activityclass.Splash_screen"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -41,5 +46,9 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
+
+    <queries>
+        <package android:name="com.DefaultCompany.ChemistryAR" />
+    </queries>
 
 </manifest>
