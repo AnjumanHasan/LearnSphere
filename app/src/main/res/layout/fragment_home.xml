@@ -12,8 +12,6 @@
 
 
 
-
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -99,10 +97,6 @@
 
 
 
-
-
-
-
             </LinearLayout>
 
 
@@ -110,7 +104,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_marginTop="40dp"
-                android:layout_below="@id/intro"
+                android:layout_below="@id/subjects"
                 android:layout_marginLeft="10dp"
                 android:id="@+id/bag"
                 android:layout_marginRight="10dp"
@@ -187,12 +181,12 @@
 
 
             <LinearLayout
+                android:id="@+id/subjects"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/bag"
-                android:layout_marginTop="50dp"
-                android:id="@+id/subjects"
+                android:layout_below="@id/mid"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginRight="10dp"
                 android:orientation="vertical">
 
@@ -207,20 +201,20 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppins"
-                        android:textStyle="bold"
                         android:text="Subjects"
                         android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/allsubjects"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="All Subjects"
-                        android:gravity="right"
-                        android:textSize="15sp"
-                        android:id="@+id/allsubjects"
                         android:layout_weight="2"
-                        android:fontFamily="@font/poppins">
+                        android:fontFamily="@font/poppins"
+                        android:gravity="right"
+                        android:text="All Subjects"
+                        android:textSize="15sp">
 
                     </TextView>
 
@@ -228,27 +222,22 @@
                 </LinearLayout>
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:layout_width="match_parent"
-                    android:orientation="horizontal"
                     android:id="@+id/subject_recycle"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"/>
-
+                    android:layout_weight="1"
+                    android:orientation="horizontal" />
 
 
                 <ImageView
+                    android:id="@+id/addsubject"
                     android:layout_width="200dp"
                     android:layout_height="50dp"
-                    android:id="@+id/addsubject"
-                    android:visibility="visible"
                     android:layout_gravity="center"
-                    android:src="@drawable/plus"
-                    android:background="@drawable/lightbluebackground"
                     android:layout_marginTop="20dp"
-                    />
-
-
-
+                    android:background="@drawable/lightbluebackground"
+                    android:src="@drawable/plus"
+                    android:visibility="visible" />
 
 
             </LinearLayout>
@@ -257,8 +246,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 android:id="@+id/mid"
-                android:layout_marginTop="50dp"
-                android:layout_below="@+id/subjects"
+                android:layout_marginTop="-50dp"
+                android:layout_below="@+id/intro"
                 android:orientation="vertical"
                 android:paddingHorizontal="20px">
 
@@ -346,7 +335,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/mid"
+                android:layout_below="@id/bag"
                 android:layout_marginTop="50dp"
                 android:id="@+id/guruspcl"
                 android:layout_marginLeft="10dp"
