@@ -25,7 +25,7 @@
         android:layout_height="280dp"
         android:layout_below="@id/logo"
         android:id="@+id/schoolbags"
-        android:src="@drawable/vr"
+        android:src="@drawable/newageimage"
         />
 
 

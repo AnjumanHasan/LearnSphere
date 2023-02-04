@@ -10,71 +10,45 @@
 
 
 
-
-
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigationview"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-
         app:headerLayout="@layout/header_layout"
         app:menu="@menu/menu" />
 
     <RelativeLayout
+        android:id="@+id/body_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FFFFFF">
+
         <FrameLayout
             android:id="@+id/fragment"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_above="@id/navigation_bar">
+            android:layout_height="match_parent">
 
         </FrameLayout>
 
-
-        <LinearLayout
+        <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/navigation_bar"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:orientation="horizontal">
+            android:layout_marginStart="30dp"
 
-            <ImageView
-                android:id="@+id/home"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="10dp"
-                android:src="@drawable/home" />
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/round_corner"
+            android:elevation="2dp"
+            app:itemIconSize="30dp"
 
-            <ImageView
-                android:id="@+id/attendance"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="10dp"
-                android:src="@drawable/attendance" />
+            app:itemIconTint="@drawable/item_selector"
+            app:itemRippleColor="@android:color/transparent"
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/menu" />
 
-            <ImageView
-                android:id="@+id/dash"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="10dp"
-                android:src="@drawable/dashboard" />
-
-            <ImageView
-                android:id="@+id/user"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="10dp"
-                android:src="@drawable/user" />
-
-
-        </LinearLayout>
 
     </RelativeLayout>
 
