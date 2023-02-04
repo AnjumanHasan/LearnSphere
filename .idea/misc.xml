@@ -3,6 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/drawable/ic_attendance.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/drawable/item_selector.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/drawable/navigation_bar_background.xml" value="0.2323799795709908" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/drawable/round_corner.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_dinoassist.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_entry1.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_entry2.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_event_edit.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_final_result.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_flyhigh.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_game.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_gradelists.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_login.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_questions_nanswers.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/activity_time_table.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/allcustomcards_custom_layout.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/fragment_admin.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/fragment_allcustomcards.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/fragment_classroom.xml" value="0.16" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/layout/fragment_quiz_info.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/LearnSphere/app/src/main/res/menu/menu.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/ajays/AndroidStudioProjects/Vidya_Sagar/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/ajays/AndroidStudioProjects/Vidya_Sagar/app/src/main/res/layout/activity_maincalendar.xml" value="0.1" />
         <entry key="..\:/Users/ajays/AndroidStudioProjects/Vidya_Sagar/app/src/main/res/layout/activity_questions_nanswers.xml" value="0.22864583333333333" />
