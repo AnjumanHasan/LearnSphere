@@ -1,14 +1,14 @@
-# Vidya_Sagar
+# LearnSphere
 
 Problem Statement - The pandemic caused further shocks to the system with schools forced to shut down during the lockdown period, and the transition of students and teachers to online teaching-learning. In India, around 250 million students were affected due to school closures at the onset of lockdown induced by COVID-19.
 
-Rural and Urban education has been severely affected because of unavailability of proper education platforms. Many of the Pathshalas, Aanganwaadis and public schools are forced to move towards a non-interactive communication via whatsapp groups. So to overcome this solution we are presenting our education platform - VIDYA SAGAR
+Rural and Urban education has been severely affected because of unavailability of proper education platforms. Many of the Pathshalas, Aanganwaadis and public schools are forced to move towards a non-interactive communication via whatsapp groups. So to overcome this solution we are presenting our education platform - LearnSphere
 
 Features -
 
-1) Vidya Group is an android application cum platform which focuses on 3 major crowds. One is student, second is faculty and third is parent.
+1) LearnSphere is an android application cum platform which focuses on 3 major crowds. One is student, second is faculty and third is parent.
 
-2) For students Vidya sagar offers -
+2) For students LearnSphere sagar offers -
 
    a) Subject Section
 
